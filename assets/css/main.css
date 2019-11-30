@@ -7,12 +7,7 @@ html, body {
   display: flex;
   flex-flow: column;
   height: 100%;
-}
-
-.flex-spanner {
-/* flex-grow: 1; */
   flex: 1 1 auto;
-/*  background-color: green; */
 }
 
 .grid-main-content {
