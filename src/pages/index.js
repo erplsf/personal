@@ -8,7 +8,7 @@ export default () => (
   <>
     <Helmet>
       <meta charSet="utf-8" />
-        <title>Motto</title>
+        <title>Andriy Mykhaylyk | Software Conjurer </title>
     </Helmet>
     <CentralContainer>
       <Motto>Do the work. Improve the process. Repeat.</Motto>
