@@ -8,10 +8,10 @@ export default () => (
   <>
     <Helmet>
       <meta charSet="utf-8" />
-        <title>Andriy Mykhaylyk | Software Conjurer </title>
+        <title>Andriy Mykhaylyk | Multicore General </title>
     </Helmet>
     <CentralContainer>
-      <Motto>Do the work. Improve the process. Repeat.</Motto>
+      <Motto>Solve. Improve. Repeat</Motto>
     </CentralContainer>
   </>
 )
