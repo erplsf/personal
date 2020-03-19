@@ -19,6 +19,6 @@
       },
     },
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-jss",
+    "gatsby-plugin-linaria",
   ]
 }

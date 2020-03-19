@@ -1,15 +1,12 @@
 import React from "react"
 import "typeface-bai-jamjuree"
-import { createUseStyles } from "react-jss"
+import { styled } from 'linaria/react'
 
-const useStyles = createUseStyles({
-  mottoText: {
-    fontSize: "xx-large",
-    fontFamily: ["Bai Jamjuree", "sans-serif"],
-  },
-})
+const MottoTextStyle = styled.div`
+  fontSize: "xx-large",
+  fontFamily: ["Bai Jamjuree", "sans-serif"],
+`
 
 export default ({ children }) => {
-  const classes = useStyles()
-  return <div className={classes.mottoText}>{children}</div>
+  return <MottoTextStyle>{children}</MottoTextStyle>
 }

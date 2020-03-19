@@ -1,19 +1,16 @@
 import React from "react"
-import { createUseStyles } from "react-jss"
+import { styled } from 'linaria/react'
 
-const useStyles = createUseStyles({
-  centralContainer: {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    marginRight: "-50%",
-    transform: "translate(-50%, -50%)"
-  }
-})
+const ContainerStyle = styled.div`
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  marginRight: "-50%",
+  transform: "translate(-50%, -50%)"
+`
 
 const CentralContainer = ({ children }) => {
-  const classes = useStyles()
-  return <div className={classes.centralContainer}>{children}</div>
+  return <ContainerStyle>{children}</ContainerStyle>
 }
 
 export default CentralContainer
