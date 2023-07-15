@@ -1,6 +1,9 @@
-name: Test
+name: Build and publish the website
 
-on: push
+on:
+  push:
+    branches:
+      - main
 
 permissions:
   id-token: write # This is required for requesting the JWT
