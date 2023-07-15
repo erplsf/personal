@@ -18,6 +18,7 @@
     "gatsby": "^2.19.43",
     "gatsby-plugin-linaria": "^2.0.0",
     "gatsby-plugin-manifest": "^2.2.30",
+    "gatsby-plugin-postcss": "^2.2.1",
     "gatsby-plugin-react-helmet": "^3.1.16",
     "linaria": "^1.4.0-beta.3",
     "react": "^16.12.0",
@@ -29,7 +30,8 @@
     "eslint": "^6.7.1",
     "eslint-config-react-app": "^5.0.2",
     "eslint-plugin-react": "^7.16.0",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "tailwindcss": "^1.2.0"
   },
   "repository": {
     "type": "git",

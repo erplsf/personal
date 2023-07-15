@@ -11,7 +11,7 @@ export default () => (
         <title>Andriy Mykhaylyk | Multicore General </title>
     </Helmet>
     <CentralContainer>
-      <Motto>Solve. Improve. Repeat</Motto>
+      <Motto className={".text-base"}>Solve. Improve. Repeat</Motto>
     </CentralContainer>
   </>
 )

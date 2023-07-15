@@ -20,5 +20,6 @@ module.exports = {
     },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-linaria",
+    "gatsby-plugin-postcss"
   ]
 }
