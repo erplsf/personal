@@ -21,6 +21,7 @@
           nodejs
           nodePackages.typescript-language-server
           nodePackages.pnpm
+          nodePackages.prettier
         ];
       };
     };
