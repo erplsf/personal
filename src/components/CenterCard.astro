@@ -1,0 +1,22 @@
+---
+import '@fontsource/bai-jamjuree';
+
+interface Props {
+	body: string;
+}
+
+const { body } = Astro.props;
+---
+
+<div class="flex h-screen">
+	<div class="m-auto fancy-font">
+		{body}
+	</div>
+</div>
+
+<style>
+    .fancy-font {
+        font-size: xx-large;
+        font-family: "Bai Jamjuree", sans-serif;
+    }
+</style>
